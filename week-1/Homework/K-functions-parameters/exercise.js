@@ -1,5 +1,10 @@
 // Complete the function so that it takes input parameters
-function multiply() {
+
+
+
+function multiply (firstnumber, secondnumber) {
+
+  return firstnumber * secondnumber
   // Calculate the result of the function and return it
 }
 
@@ -7,3 +12,5 @@ function multiply() {
 var result = multiply(3, 4);
 
 console.log(result);
+ var result2= multiply(4, 4);
+ console.log(result2);

@@ -1,0 +1,5 @@
+console.log("hello world")
+console.log("hola mundo")
+console.log("salam dunia")
+console.log("hallo welt")
+console.log("ciao mondo")

@@ -1,7 +1,13 @@
-function halve(number) {
-  // complete the function here
-}
+ 
+ 
+ function halve(number) {
+   return `half of ${number} is ${number/2}`
+   }
+ 
 
-var result = halve(12);
+   // complete the function here
+  console.log(halve(6))
+console.log(halve(10))
 
-console.log(result);
+
+

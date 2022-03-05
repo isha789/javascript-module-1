@@ -1,6 +1,10 @@
+
+
+
 function secondMatchesAmy(array) {
-  if ( ) {
+  if () {
     return "Second index matched!";
   }
   return "Second index not matched";
 }
+console.log(secondMatchesAmy());

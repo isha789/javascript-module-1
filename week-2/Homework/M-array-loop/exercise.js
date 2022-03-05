@@ -13,3 +13,17 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+function daysOfWeek(array){
+  if (daysOfWeek === 'T')
+  return {
+    daysOfWeek(array)
+  }
+}
+
+console.log(daysOfWeek(array))
+
+
+
+
+
+

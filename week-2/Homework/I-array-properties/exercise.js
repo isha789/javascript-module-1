@@ -5,10 +5,19 @@
 
 */
 
-function isEmpty(arr) {
-  return; // complete this statement
-}
+//const { arrayBuffer } = require("stream/consumers");
 
+function isEmpty(arr) {
+if (arr.length){
+  return (false) }  // complete this statement
+  else{
+    return(true)
+  }
+
+
+
+
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

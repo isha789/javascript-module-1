@@ -5,11 +5,14 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+  numbers.push(arr[0],arr[arr.length - 1])
+  
+  return arr ; // complete this statement
 }
 
 function last(arr) {
-  return; // complete this statement
+  return ; // complete this statement
+  
 }
 
 /* 

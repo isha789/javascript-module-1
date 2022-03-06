@@ -1,13 +1,6 @@
-//let GOODStudent = ["isha","gloria","shaminderjeet","mehtap","gabriela"]
-
-//for (let ArrayStudents = 0; ArrayStudents < GOODStudent.length; ArrayStudents ++){
-    //const Student = GOODStudent[ArrayStudents];
-  //  console.log("hello"+ GOODStudent);
-//}
-//console.log("hello"+ GOODStudents);
 
 
-namesOfStudents = ["isha",
+const namesOfStudents = ["isha",
 "gloria",
 "shaminder",
 "gabriela",]
@@ -15,10 +8,10 @@ namesOfStudents = ["isha",
 var names = namesOfStudents
 
 
-
-
-
-for (i=0; i<=namesOfStudents.length;i++){
-    console.log("hello"+ namesOfStudents[i])
+function   printstudents(namesOfStudents){
+for (i=0; i<namesOfStudents.length;i++){
+  console.log(namesOfStudents[i])
+   // console.log (printstudents("hello" + " " + namesOfStudents[i]))
 }
-
+}
+printstudents(namesOfStudents)

@@ -13,14 +13,15 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
-function daysOfWeek(array){
-  if (daysOfWeek === 'T')
-  return {
-    daysOfWeek(array)
+function checkDays(arr){
+ for(let i=0;i<arr.length;i++){
+   if (arr[i].startsWith('T'))
+  { console.log(arr[i])
   }
-}
+ }
 
-console.log(daysOfWeek(array))
+}
+checkDays(daysOfWeek);
 
 
 

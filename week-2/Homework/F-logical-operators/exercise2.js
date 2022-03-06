@@ -15,8 +15,11 @@ function isBetween5and10(num){
   if (num >=5 && num <=10){
     return (true)
   }
+  return (false)
+  
 }
 function isShortName(name){
+  
   if (name.length <= 10){
     return (true)
   }
@@ -25,7 +28,7 @@ function isShortName(name){
 
 
 function startsWithD(name){
-  if (name.length[0] === `D` ){
+  if (name[0].toUpperCase() === `D` ){
     return (true)
   }
   return (false)

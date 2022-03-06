@@ -7,8 +7,9 @@
 */
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
-numbers[3]=4
 
+numbers.push(4)
+//numbers[0]=100; //to change first value in array
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

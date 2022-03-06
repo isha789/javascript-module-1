@@ -2,7 +2,7 @@
 function checkinguser(username,usertype){
 
 
-if ( username.length > 5 && username.length < 10 && username[0] === username[0].toUpperCase() && usertype === "admin"){
+if ( username.length > 5 && username.length < 10 && username[0] === username[0].toUpperCase() && usertype === "admin" || usertype === "manager"){
     return `Username Valid`
 }
 else {
@@ -10,7 +10,5 @@ else {
 }
 }
 
-console.log(checkinguser(`Ishaaa`, `admin`))
+console.log(checkinguser(`Ishaaa`, `manager`))
 
- //usertype === manager && usertype === admin
- //username.length > 5 && username.length < 10 && username[0] === username[0].toUpperCase()

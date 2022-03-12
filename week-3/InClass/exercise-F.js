@@ -1,5 +1,5 @@
 
-const birthYears = [1964, 2008, 1999, 2005, 1978, 1985, 1919]
+const birthYears = [ 1964, 2008, 1999, 2005, 1978, 1985, 1919 ]
 
 function calculateAge(birthYear){
     return 2022 - birthYear

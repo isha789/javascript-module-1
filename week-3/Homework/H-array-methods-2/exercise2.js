@@ -7,7 +7,21 @@
   Tip: use the string method .split() and the array method .join()
 */
 
-function capitalise(str) {}
+function capitalise(str) {
+   
+    const titleCase = str
+      .toLowerCase()
+      .split(' ')
+      .map(word => {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      })
+      .join(' ');
+  
+    return titleCase;
+  }
+  
+ 
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
